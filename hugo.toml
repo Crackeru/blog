@@ -1,5 +1,5 @@
 baseURL = "https://crackeru.github.io"
-title = "ExampleSite"
+title = "CrackerNote"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -14,8 +14,8 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
+title = "CrackerNote"
+description = "CrackerNote description"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Me"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
@@ -47,7 +47,7 @@ tocopen = false
   disableFingerprinting=true
 
   [params.label]
-  text = "Home"
+  text = "CrackerNote"
   icon = "/apple-touch-icon.png"
   iconHeight = 35
 
@@ -69,20 +69,12 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
+  Title = "CrackerNote 👋"
   Content = "Welcome to my blog"
 
   [[params.socialIcons]]
-  name = "x"
-  url = "https://x.com/"
-
-  [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
-
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/"
+  name = "linkedin"
+  url = "https://linkedin.com"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -125,11 +117,6 @@ name = "tags"
 url = "/tags/"
 weight = 20
 
-[[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
 
 [markup.highlight]
 noClasses = false
